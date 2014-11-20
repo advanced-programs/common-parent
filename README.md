@@ -20,13 +20,13 @@ Maven父pom项目，将pom公共部分提取出来汇总在父pom中，降低各
         <!-- 指定父pom信息 -->
         <parent>
           <groupId>zx.soft</groupId>
-	        <artifactId>parent</artifactId>
-	        <version>1.2.0</version>
+	        <artifactId>common-parent</artifactId>
+	        <version>1.0.0</version>
         </parent>
 
         ...
 
-        <!-- 指定pp私有Maven仓库地址，以便下载父pom -->
+        <!-- 指定公司私有Maven仓库地址，以便下载父pom -->
         <repositories>
 	        <repository>
 		        <id>zxsoft-public</id>
