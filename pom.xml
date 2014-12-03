@@ -28,6 +28,7 @@
 		<jetty.version>9.3.0.M0</jetty.version>
 		<mmseg4j.version>1.9.1</mmseg4j.version>
 		<jedis.version>2.5.1</jedis.version>
+		<fasterxml.jackson.version>2.4.4</fasterxml.jackson.version>
 	</properties>
 
 	<dependencyManagement>
@@ -352,6 +353,16 @@
 				<version>${slf4j.version}</version>
 			</dependency>
 			<!-- Json组件 -->
+			<dependency>
+				<groupId>com.fasterxml.jackson.core</groupId>
+				<artifactId>jackson-core</artifactId>
+				<version>${fasterxml.jackson.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.fasterxml.jackson.core</groupId>
+				<artifactId>jackson-databind</artifactId>
+				<version>${fasterxml.jackson.version}</version>
+			</dependency>
 			<dependency>
 				<groupId>org.codehaus.jackson</groupId>
 				<artifactId>jackson-mapper-asl</artifactId>
