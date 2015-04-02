@@ -25,7 +25,7 @@
 		<restlet.version>2.2.0</restlet.version>
 		<mybatis.version>3.2.3</mybatis.version>
 		<jedis.version>2.5.1</jedis.version>
-		<jetty.version>9.3.0.M0</jetty.version>
+		<jetty.version>9.2.10.v20150310</jetty.version> <!-- 9.3.0.M0不稳定 -->
 		<mmseg4j.version>1.9.1</mmseg4j.version>
 		<jedis.version>2.5.1</jedis.version>
 		<fasterxml.jackson.version>2.4.4</fasterxml.jackson.version>
