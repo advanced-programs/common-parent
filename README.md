@@ -21,7 +21,7 @@ Maven父pom项目，将pom公共部分提取出来汇总在父pom中，降低各
         <parent>
             <groupId>zx.soft</groupId>
             <artifactId>common-parent</artifactId>
-            <version>2.0.0</version>
+            <version>2.0.2</version>
         </parent>
 
         ...
@@ -40,6 +40,6 @@ Maven父pom项目，将pom公共部分提取出来汇总在父pom中，降低各
 ```
 
 * 如果pom中依赖或者插件的版本处提示“Overriding managed ...”，说明父pom中已经指定，此处不需要再指定。如果有特殊需要可以覆盖。
-* 注意：Solr4.8版本需要使用1.0.0版本，Solr5.1.0需要使用2.0.0版本。
+* 注意：Solr4.8版本需要使用1.0.0版本，Solr5.1.0需要使用2.0.2版本。
 
 > 注意：父pom中依赖的版本或者插件的版本，可能会在不通知的情况下变更。项目需要自己进行回归测试。
