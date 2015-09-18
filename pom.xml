@@ -32,6 +32,7 @@
 		<jedis.version>2.5.1</jedis.version>
 		<fasterxml.jackson.version>2.4.4</fasterxml.jackson.version>
 		<netty.version>5.0.0.Alpha2</netty.version>
+		<jboss-netty.version>3.2.10.Final</jboss-netty.version>
 		<jboss-marshalling.version>2.0.0.Beta2</jboss-marshalling.version>
 		<hibernate.version>5.0.1.Final</hibernate.version>
 		<tiles.version>3.0.5</tiles.version>
@@ -60,7 +61,13 @@
 				<artifactId>jboss-marshalling-serial</artifactId>
 				<version>${jboss-marshalling.version}</version>
 			</dependency>
-			<!-- Netty组件 -->
+			<!-- JBoss-Netty组件 -->
+			<dependency>
+				<groupId>org.jboss.netty</groupId>
+				<artifactId>netty</artifactId>
+				<version>${jboss-netty.version}</version>
+			</dependency>
+			<!-- IO-Netty组件 -->
 			<dependency>
 				<groupId>io.netty</groupId>
 				<artifactId>netty-all</artifactId>
@@ -874,6 +881,22 @@
 			<id>maven-restlet</id>
 			<name>Public online Restlet repository</name>
 			<url>http://maven.restlet.org</url>
+		</repository>
+		<!-- JBoss仓库 -->
+		<repository>
+			<id>repository.jboss.org</id>
+			<url>https://repository.jboss.org/nexus/content/groups/public/</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<!-- Netty仓库 -->
+		<repository>
+			<id>netty</id>
+			<url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
 		</repository>
 	</repositories>
 
