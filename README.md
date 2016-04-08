@@ -21,7 +21,7 @@ Maven父pom项目，将pom公共部分提取出来汇总在父pom中，降低各
         <parent>
             <groupId>zx.soft</groupId>
             <artifactId>common-parent</artifactId>
-            <version>2.0.2</version>
+            <version>3.0.0</version>
         </parent>
 
         ...
