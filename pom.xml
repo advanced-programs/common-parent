@@ -28,7 +28,7 @@
 		<mybatis.version>3.3.1</mybatis.version>
 		<jedis.version>2.8.1</jedis.version>
 		<jetty.version>9.3.9.M0</jetty.version> <!-- 9.3.0.M0不稳定 -->
-		<fasterxml.jackson.version>2.7.3</fasterxml.jackson.version>
+		<fasterxml.jackson.version>2.10.1</fasterxml.jackson.version>
 		<netty.version>5.0.0.Alpha2</netty.version>
 		<jboss-netty.version>3.2.10.Final</jboss-netty.version> <!-- 弃用，换成nettty-all -->
 		<jboss-marshalling.version>2.0.0.Beta2</jboss-marshalling.version>
