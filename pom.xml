@@ -13,7 +13,7 @@
 		<project.build.outputEncoding>UTF-8</project.build.outputEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<elasticsearch.version>2.3.1</elasticsearch.version>
-		<solr.version>5.5.0</solr.version>
+		<solr.version>8.4.1</solr.version>
 		<lucene.version>5.5.0</lucene.version>
 		<hadoop.version>1.2.1</hadoop.version>
 		<storm.version>0.10.0</storm.version>
