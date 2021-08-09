@@ -12,7 +12,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.build.outputEncoding>UTF-8</project.build.outputEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<elasticsearch.version>2.3.1</elasticsearch.version>
+		<elasticsearch.version>6.8.17</elasticsearch.version>
 		<solr.version>5.5.0</solr.version>
 		<lucene.version>5.5.0</lucene.version>
 		<hadoop.version>1.2.1</hadoop.version>
