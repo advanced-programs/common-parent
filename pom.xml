@@ -27,7 +27,7 @@
 		<restlet.version>2.3.7</restlet.version>
 		<mybatis.version>3.3.1</mybatis.version>
 		<jedis.version>2.8.1</jedis.version>
-		<jetty.version>9.3.9.M0</jetty.version> <!-- 9.3.0.M0不稳定 -->
+		<jetty.version>10.0.10</jetty.version> <!-- 9.3.0.M0不稳定 -->
 		<fasterxml.jackson.version>2.7.3</fasterxml.jackson.version>
 		<netty.version>5.0.0.Alpha2</netty.version>
 		<jboss-netty.version>3.2.10.Final</jboss-netty.version> <!-- 弃用，换成nettty-all -->
