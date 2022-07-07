@@ -32,7 +32,7 @@
 		<netty.version>5.0.0.Alpha2</netty.version>
 		<jboss-netty.version>3.2.10.Final</jboss-netty.version> <!-- 弃用，换成nettty-all -->
 		<jboss-marshalling.version>2.0.0.Beta2</jboss-marshalling.version>
-		<hibernate.version>5.1.0.Final</hibernate.version>
+		<hibernate.version>5.1.2.Final</hibernate.version>
 		<tiles.version>3.0.5</tiles.version>
 	</properties>
 
